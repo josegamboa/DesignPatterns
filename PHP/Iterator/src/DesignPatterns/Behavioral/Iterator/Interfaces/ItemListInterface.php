@@ -26,7 +26,7 @@
  * @since      File available since Release 1.2.0
  * @deprecated File deprecated in Release 2.0.0
  */
-namespace JGSmartSystems\DesignPatterns\Behavioral\Iterator\Interfaces
+namespace JGSmartSystems\DesignPatterns\Behavioral\Iterator\Interfaces;
 /**
  * This class contain the interface structure for uncouple the Iterator Pattern
  */
