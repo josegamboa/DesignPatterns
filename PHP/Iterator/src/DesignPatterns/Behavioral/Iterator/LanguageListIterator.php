@@ -16,7 +16,7 @@
  *
  * @category   Design Patterns
  * @package    JGSmartSystems
- * @author     Original Author Josè Joaqupin Gamboa Sotelo>
+ * @author     Original Author Josè Joaquín Gamboa Sotelo
  * @author     Another Author jose_9515@hotmail.com
  * @copyright  1997-2005 The PHP Group
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
