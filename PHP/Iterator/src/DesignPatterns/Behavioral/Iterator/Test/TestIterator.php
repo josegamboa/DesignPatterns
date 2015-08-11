@@ -6,7 +6,6 @@ use JGSmartSystems\DesignPatterns\Behavioral\Iterator\Language;
 use JGSmartSystems\DesignPatterns\Behavioral\Iterator\LanguageList;
 use JGSmartSystems\DesignPatterns\Behavioral\Iterator\LanguageListIterator;
 
-
 /**
  * Description of TestIteraror
  *
@@ -16,8 +15,7 @@ class TestIterator {
 
     public function runExample() {
         //Define Some items
-        $languagePHP  = new Language("PHP", "Php 5.3", "Php is a great language!");
-        $languagePHP  = $languagePHP;
+        $languagePHP = new Language("PHP", "Php 5.3", "Php is a great language!");
         $languageJava = new Language("JAVA", "JAVA 7", "Java is a great language!");
         $languageNet = new Language(".NET", "C# .Net 2010", " C# is a great language!");
         //Add  items
@@ -36,8 +34,6 @@ class TestIterator {
             echo "Description: " . $iterator->current()->getDescription() . " ";
             echo "<br>.................................................. <br> ";
             $iterator->next();
-            
-            $t = new \stdClass();
         }
     }
 
